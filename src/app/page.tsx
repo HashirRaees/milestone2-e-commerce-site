@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Navbar from "@/components/Navbar"
-import { ImageError } from "next/dist/server/image-optimizer"
 export default function Page(){
     return(
         <>
