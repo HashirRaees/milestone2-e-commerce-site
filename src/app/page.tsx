@@ -58,21 +58,23 @@ export default function Page(){
             <div className="flex items-center justify-center bg-slate-400 mt-12 h-20 w-[50%]">
              <h1 className="text-6xl font-extrabold">New Arrivals</h1>
             </div>
-            <div className="sm:h-[450px] mt-10 grid grid-flow-row grid-cols-4 gap-3 bg-slate-400 w-[80%]">
-                <div className="sm:h-[450px] sm:w-[260px] bg-slate-300">
+            <div className="sm:h-[450px] mt-10 grid grid-flow-row grid-cols-4 gap-3 bg-slate-400 w-[85%]">
+                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
                     <div className="black sm:h-[350px] w-full bg-gray-600"></div>
+                    <h2>T shirt with Tape Details</h2>
                 </div>
 
-                <div className="sm:h-[450px] sm:w-[260px] bg-slate-300">
+                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
                     <div className="jean sm:h-[350px] w-full bg-gray-600"></div>
                 </div>
 
-                <div className="sm:sh-[450px] sm:w-[260px] bg-slate-300">
+                <div className="sm:sh-[450px] sm:w-[280px] bg-slate-300">
                     <div className="check sm:h-[350px] w-full bg-gray-600"></div>
                 </div>
 
-                <div className="sm:h-[450px] sm:w-[260px] bg-slate-300">
+                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
                     <div className="stripe sm:h-[350px] w-full bg-gray-600"></div>
+
                 </div>
             </div>
         </div>
