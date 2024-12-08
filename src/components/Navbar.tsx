@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { RiArrowDownSLine,RiShoppingCartLine,RiAccountCircleLine,RiSearchLine,RiMenuLine} from "@remixicon/react"
 export default function Nav(){
     return(
