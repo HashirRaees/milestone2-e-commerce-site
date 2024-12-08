@@ -13,7 +13,7 @@ export default function Nav(){
             <div className="h-[40px] sm:w-[1180px] w-[340px] flex justify-between sm:justify-normal items-center sm:gap-8">
                 <div className="flex items-center gap-5">
                 <RiMenuLine size={24} className="sm:hidden"/>
-                <h1 className="head sm:text-3xl text-xl font-extrabold uppercase cursor-default" >Shop.Co</h1></div>
+                <h1 className="head sm:text-3xl text-2xl font-extrabold uppercase cursor-default" >Shop.Co</h1></div>
                 <ul className="sm:flex hidden sm:items-center sm:gap-4">
                     <li className="hover:underline cursor-pointer sm:flex sm:items-center">Shop
                         <RiArrowDownSLine size={15}/>

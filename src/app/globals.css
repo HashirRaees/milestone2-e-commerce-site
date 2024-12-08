@@ -45,3 +45,23 @@ nav input{
   background-repeat:unset;
   background-size: cover;
 }
+.vertical{
+  background-image: url("/images/verticalstrip.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.orange{
+  background-image: url("/images/orangeT.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.shorts{
+  background-image: url("/images/shorts.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.blackjean{
+  background-image: url("/images/blackjeans.png");
+  background-repeat:unset;
+  background-size: cover;
+}
