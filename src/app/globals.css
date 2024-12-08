@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+.banner{
+  background-color: rgba(242, 240, 241, 1);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav input{
+    background-color:rgba(240, 240, 240, 1);
+}
+.black{
+  background-image: url("/images/blackT.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.jean{
+  background-image: url("/images/jeans.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.check{
+  background-image: url("/images/checked.png");
+  background-repeat:unset;
+  background-size: cover;
+}
+.stripe{
+  background-image: url("/images/stripeT.png");
+  background-repeat:unset;
+  background-size: cover;
+}
