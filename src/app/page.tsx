@@ -54,27 +54,92 @@ export default function Page(){
             <Image src={"/images/calvin.png"} alt="" height={100} width={70} className="sm:h-[30px] sm:w-[150px]" />
             </div>
         </div>
-        <div className="bg-slate-500 h-[700px] w-[390px] sm:w-[1349px] flex flex-col items-center">
-            <div className="flex items-center justify-center bg-slate-400 mt-12 h-20 w-[50%]">
-             <h1 className="text-6xl font-extrabold">New Arrivals</h1>
+        {/*Categories New arrivals*/}
+        <div className="sm:mt-10 h-[1800px] sm:h-[700px] w-[390px] sm:w-[1349px] flex flex-col items-center">
+            <div className="flex items-center justify-center mt-12 h-20 sm:w-[50%]">
+             <h1 className="sm:text-6xl text-4xl font-extrabold">New Arrivals</h1>
             </div>
-            <div className="sm:h-[450px] mt-10 grid grid-flow-row grid-cols-4 gap-3 bg-slate-400 w-[85%]">
-                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
-                    <div className="black sm:h-[350px] w-full bg-gray-600"></div>
-                    <h2>T shirt with Tape Details</h2>
+        {/*Clothes*/}
+            <div className="sm:h-[450px] h-[1300px] sm:mt-10 grid sm:grid-flow-row grid-cols-1 items-center sm:grid-cols-4 sm:gap-3 w-[85%]">
+                  {/*Black T shirt*/}
+                <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
+                    <div className="black sm:h-[350px] h-[250px] w-full"></div>
+                    <h2 className="sm:text-xl font-bold">T shirt with Tape Details</h2>
+
+                     {/*Rating*/}
+                    <div className="sm:h-[19px] sm:w-[160px] flex gap-2">
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18] sm:w-[18]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13}  className="sm:h-[18] sm:w-[18]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13}  className="sm:h-[18] sm:w-[18]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13}  className="sm:h-[18] sm:w-[18]"></Image>
+                        <Image src={"/images/Star 5.png"} alt="" height={10} width={8}  className="sm:h-[18] sm:w-[18]"></Image>
+                        <h2 className="text-sm font-normal">4.5/<span className="text-gray-600">5</span></h2>
+                    </div>
+
+                     {/*Pricing*/}
+                     <div className="h-[30px] w-[100px]">
+                        <h2 className="sm:text-2xl text-base font-bold">$120</h2>
+                     </div>
                 </div>
+                {/*Jeans*/}
+                <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
+                    <div className="jean sm:h-[350px] h-[250px] w-full"></div>
+                    <h2 className="sm:text-xl font-bold">Skinny Fit Jeans</h2>
 
-                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
-                    <div className="jean sm:h-[350px] w-full bg-gray-600"></div>
+                     {/*Rating*/}
+                    <div className="h-[19px] sm:w-[160px] flex gap-2">
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={18}></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={18}></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={18}></Image>
+                        <Image src={"/images/Star 5.png"} alt="" height={10} width={10}></Image>
+                        <h2 className="text-sm font-normal">3.5/<span className="text-gray-600">5</span></h2>
+                    </div>
+                     {/*Pricing*/}
+                     <div className="h-[30px] flex items-center gap-2 w-[100px]">
+                        <h2 className="sm:text-2xl text-base">$120</h2>
+                        <span className="sm:text-2xl font-bold text-gray-600 line-through">$160</span>
+                     </div>
                 </div>
+                {/*Checked Shirt*/}
+                <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
+                    <div className="check sm:h-[350px] h-[250px] w-full"></div>
+                    <h2 className="sm:text-xl font-bold">Checkered Shirt</h2>
 
-                <div className="sm:sh-[450px] sm:w-[280px] bg-slate-300">
-                    <div className="check sm:h-[350px] w-full bg-gray-600"></div>
+                    {/*Rating*/}
+                    <div className="h-[19px] sm:w-[160px] flex gap-2">
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 5.png"} alt="" height={10} width={8} className="sm:h-[18px] w-[18px]"></Image>
+                        <h2 className="text-sm font-normal">4.5/<span className="text-gray-600">5</span></h2>
+                    </div>
+
+                     {/*Pricing*/}
+                     <div className="h-[30px] w-[100px]">
+                        <h2 className="sm:text-2xl text-base">$120</h2>
+                     </div>
                 </div>
+                {/*Striped T shirt*/}
+                <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
+                    <div className="stripe sm:h-[350px] h-[250px] w-full"></div>
+                    <h2 className="sm:text-xl font-bold">Sleeve Striped T-shirt</h2>
 
-                <div className="sm:h-[450px] sm:w-[280px] bg-slate-300">
-                    <div className="stripe sm:h-[350px] w-full bg-gray-600"></div>
+                     {/*Rating*/}
+                    <div className="h-[19px] sm:w-[160px] flex gap-2">
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 3.png"} alt="" height={10} width={13} className="sm:h-[18px] w-[18px]"></Image>
+                        <Image src={"/images/Star 5.png"} alt="" height={10} width={8} className="sm:h-[18px] w-[18px]"></Image>
+                        <h2 className="text-sm font-normal">4.5/<span className="text-gray-600">5</span></h2>
+                    </div>
 
+                     {/*Pricing*/}
+                     <div className="h-[30px] flex items-center gap-2 w-[200px]">
+                        <h2 className="sm:text-2xl font-bold">$130</h2>
+                        <span className="sm:text-2xl font-bold text-gray-600 line-through">$160</span>
+                     </div>
                 </div>
             </div>
         </div>
