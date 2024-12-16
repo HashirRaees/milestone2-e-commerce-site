@@ -16,7 +16,7 @@ export default function Page(){
                 <p className="sm:text-base text-sm">Browse through our diverse range of meticulously crafted garments,
                      designed to bring out your individuality and cater to your sense of style.
                  </p>
-                <button className="sm:h-16 h-14 sm:w-[45%] hover:bg-white hover:text-black hover:border-2 hover:border-black hover:text-bold text-white rounded-full bg-black">Shop Now</button>
+                <button className="button1 sm:h-16 h-14 sm:w-[45%] hover:bg-white hover:text-black hover:border-2 hover:border-black hover:text-bold text-white rounded-full bg-black">Shop Now</button>
             </div>
              {/*Mobile*/}
             <div className="h-[55px] w-[278px] absolute top-[480px] left-[56px] flex justify-between sm:hidden">

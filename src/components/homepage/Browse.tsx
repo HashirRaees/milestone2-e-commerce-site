@@ -2,16 +2,16 @@ export default function Browse(){
     return(
         <>
         {/*Main Section*/}
-        <div className="flex w-[390px] justify-center sm:w-[1349px]">
+        <div className="flex sm:mt-10 w-[390px] justify-center sm:w-[1349px]">
 
             {/*Main div*/}
-        <div className="sm:w-[1239px] w-[369px] p-3 gap-5 flex sm:p-10 sm:gap-20 items-center flex-col h-[940px] sm:h-[860px] rounded-3xl bg-gray-200">
+        <div className="sm:w-[1239px] w-[369px] p-4 gap-5 flex sm:p-10 sm:gap-20 items-center flex-col h-[940px] sm:h-[860px] rounded-3xl bg-gray-100">
 
             {/*Heading*/}
-            <h1 className="sm:text-5xl sm:text-justify text-center text-2xl font-extrabold uppercase ">Browse By Dress Style</h1>
+            <h1 className="sm:text-5xl sm:text-justify text-center text-2xl font-extrabold uppercase sm:mt-0 mt-3">Browse By Dress Style</h1>
 
             {/*Inner Div*/}
-            <div className="flex flex-col gap-5 w-[92%] sm:h-[605px]">
+            <div className="flex flex-col gap-5 sm:w-[92%] sm:h-[605px]">
 
                 {/*Casual*/}
                 <div className="flex flex-col sm:flex-row gap-5">

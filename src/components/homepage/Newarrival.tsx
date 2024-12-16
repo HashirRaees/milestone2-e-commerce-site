@@ -89,7 +89,7 @@ export default function New(){
                      </div>
                 </div>
             </div>
-            <button className="bg-white h-[46px] mt-8 rounded-3xl w-[354px] sm:w-[218px] text-black border-2 border-gray-300">View More</button>
+            <button className="button1 hover:bg-black hover:text-white bg-white h-[46px] mt-8 rounded-3xl w-[354px] sm:w-[218px] text-black border-2 border-gray-300">View More</button>
         </div>
         </>
     )

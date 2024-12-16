@@ -16,7 +16,9 @@
 .banner{
   background-color: rgba(242, 240, 241, 1);
 }
-
+.button1{
+  transition: .3s;
+}
 body {
   color: var(--foreground);
   background: var(--background);
