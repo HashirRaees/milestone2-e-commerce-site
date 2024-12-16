@@ -10,7 +10,7 @@ export default function Top(){
             <div className="sm:h-[450px] h-[1300px] justify-center sm:mt-10 grid sm:grid-flow-row grid-cols-1 items-center sm:grid-cols-4 sm:gap-3 sm:w-[85%]">
                   {/*vertical stripe shirt*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="vertical sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="vertical rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Vertical Striped Shirt</h2>
 
                      {/*Rating*/}
@@ -30,7 +30,7 @@ export default function Top(){
                 </div>
                 {/*Orange T shirt*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="orange sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="orange rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Courage Graphic T shirt</h2>
 
                      {/*Rating*/}
@@ -49,7 +49,7 @@ export default function Top(){
                 </div>
                 {/*Shorts*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="shorts sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="shorts rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Loose Fit Bermuda Shorts</h2>
 
                     {/*Rating*/}
@@ -69,7 +69,7 @@ export default function Top(){
                 </div>
                 {/*Black jeans*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="blackjean sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="blackjean rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Faded Skinny Jeans</h2>
 
                      {/*Rating*/}

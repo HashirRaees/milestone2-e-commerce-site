@@ -10,7 +10,7 @@ export default function New(){
             <div className="sm:h-[450px] h-[1300px] justify-center sm:mt-10 grid sm:grid-flow-row grid-cols-1 items-center sm:grid-cols-4 sm:gap-3 sm:w-[85%]">
                   {/*Black T shirt*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="black sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="black rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">T shirt with Tape Details</h2>
 
                      {/*Rating*/}
@@ -30,7 +30,7 @@ export default function New(){
                 </div>
                 {/*Jeans*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="jean sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="jean rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Skinny Fit Jeans</h2>
 
                      {/*Rating*/}
@@ -43,13 +43,13 @@ export default function New(){
                     </div>
                      {/*Pricing*/}
                      <div className="h-[30px] flex items-center gap-2 w-[100px]">
-                        <h2 className="sm:text-2xl text-base">$120</h2>
-                        <span className="sm:text-2xl font-bold text-gray-600 line-through">$160</span>
+                        <h2 className="sm:text-2xl text-base">$240</h2>
+                        <span className="sm:text-2xl font-bold text-gray-600 line-through">$260</span>
                      </div>
                 </div>
                 {/*Checked Shirt*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="check sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="check rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Checkered Shirt</h2>
 
                     {/*Rating*/}
@@ -69,7 +69,7 @@ export default function New(){
                 </div>
                 {/*Striped T shirt*/}
                 <div className="sm:h-[450px] h-[308px] w-[200px] flex flex-col gap-2 sm:w-[280px]">
-                    <div className="stripe sm:h-[350px] h-[250px] w-full"></div>
+                    <div className="stripe rounded-2xl sm:h-[350px] h-[250px] w-full"></div>
                     <h2 className="sm:text-xl font-bold">Sleeve Striped T-shirt</h2>
 
                      {/*Rating*/}
@@ -89,7 +89,7 @@ export default function New(){
                      </div>
                 </div>
             </div>
-            <button className="bg-white h-[46px] mt-8 rounded-3xl w-[358px] sm:w-[218px] text-black border-2 border-gray-300">View More</button>
+            <button className="bg-white h-[46px] mt-8 rounded-3xl w-[354px] sm:w-[218px] text-black border-2 border-gray-300">View More</button>
         </div>
         </>
     )

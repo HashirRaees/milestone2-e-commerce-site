@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Topselling from "@/components/Topselling";
-import Newarrival from "@/components/Newarrival";
+import Navbar from "@/components/homepage/Navbar";
+import Topselling from "@/components/homepage/Topselling";
+import Newarrival from "@/components/homepage/Newarrival";
+import Browse from "@/components/homepage/Browse";
 export default function Page(){
     return(
         <>
@@ -37,7 +38,7 @@ export default function Page(){
             <Image src={"/images/Vector.png"} alt="star" height={56} width={38} className="absolute top-[740px] sm:h-[56px] sm:w-[56px] left-[30px] sm:top-[431px] sm:left-[700px] "/>
 
             {/*Hero image*/}
-            <Image src={"/images/image.png"} alt="hero" height={600} width={620} className="absolute top-[585px] h-[400px] w-[400px] sm:h-[600px] sm:w-[600px] sm:top-[197px] sm:left-[720px]"/>
+            <Image src={"/images/image.png"} alt="hero" height={600} width={620} className="absolute top-[584px] left-[7px] h-[400px] w-[400px] sm:h-[600px] sm:w-[600px] sm:top-[197px] sm:left-[720px]"/>
 
             {/*Star2*/}
             <Image src={"/images/Vector.png"} alt="" height={95} width={65} className="absolute top-[650px] left-[300px] sm:h-[95] sm:w-[95] sm:top-[260px] sm:left-[1195px]"/>
@@ -58,6 +59,8 @@ export default function Page(){
         <Newarrival/>
         <hr/>
         <Topselling/>
+        <hr/>
+        <Browse/>
         </>
     )
 }
