@@ -5,7 +5,7 @@ export default function Browse(){
         <div className="flex sm:mt-10 w-[390px] justify-center sm:w-[1349px]">
 
             {/*Main div*/}
-        <div className="sm:w-[1239px] w-[369px] p-4 gap-5 flex sm:p-10 sm:gap-20 items-center flex-col h-[940px] sm:h-[860px] rounded-3xl bg-gray-100">
+        <div className="sm:w-[1239px] w-[358px] p-4 gap-5 flex sm:p-10 sm:gap-20 items-center flex-col h-[940px] sm:h-[860px] rounded-3xl bg-gray-100">
 
             {/*Heading*/}
             <h1 className="sm:text-5xl sm:text-justify text-center text-2xl font-extrabold uppercase sm:mt-0 mt-3">Browse By Dress Style</h1>

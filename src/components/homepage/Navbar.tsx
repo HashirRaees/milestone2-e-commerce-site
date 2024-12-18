@@ -5,7 +5,7 @@ export default function Nav(){
         <header className="sm:h-[38px] sm:w-[1349px] h-[34px] overflow-hidden w-[390px] items-center bg-black flex justify-center">
         <div className="sm:h-[19px] sm:w-[351px]">
         <h2 className="font-normal text-xs sm:text-sm text-white">Sign up and get 20% off to your first order.  
-        <span className="font-medium text-xs sm:text-sm underline "> Sign Up Now</span>
+        <span className="font-medium text-xs sm:text-sm underline cursor-pointer "> Sign Up Now</span>
         </h2> 
         </div> 
         </header>
