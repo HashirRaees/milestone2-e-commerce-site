@@ -13,6 +13,22 @@
     --foreground: #ededed;
   }
 } */
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('/fonts/IntegralCF-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family:'Satoshi';
+}
 .banner{
   background-color: rgba(242, 240, 241, 1);
 }

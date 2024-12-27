@@ -9,7 +9,7 @@ export default function Page() {
       {/*Hero*/}
       <div className="banner overflow-hidden sm:p-6 sm:h-[663px] h-[853px] w-[390px] sm:w-[1349px]">
         <div className="sm:w-[596px] sm:p-7 p-5 sm:m-8 sm:h-[500px] flex flex-col gap-5 sm:gap-10">
-          <h1 className="font-extrabold sm:text-6xl text-4xl sm:mt-14 mt-8 ">
+          <h1 className="font-extrabold font-IntegralCF sm:text-6xl text-4xl sm:mt-14 mt-8 ">
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h1>
           <p className="sm:text-base text-sm">
@@ -17,7 +17,7 @@ export default function Page() {
             designed to bring out your individuality and cater to your sense of
             style.
           </p>
-          <button className="button1 sm:h-16 h-14 sm:w-[45%] hover:bg-white hover:text-black hover:border-2 hover:border-black hover:text-bold text-white rounded-full bg-black">
+          <button className="button1 sm:h-16 h-14 sm:w-[45%] hover:bg-white font-bold hover:text-black hover:border-2 hover:border-black hover:font-bold text-white rounded-full bg-black">
             Shop Now
           </button>
         </div>
