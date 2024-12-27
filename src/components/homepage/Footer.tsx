@@ -118,7 +118,7 @@ export default function Page(){
             <div className="sm:w-[1200px] w-[358px] h-[170px] flex sm:flex-row flex-col items-center sm:items-start sm:gap-0 gap-2 sm:justify-between">
                 {/*Rights*/}
                 <div className="h-[19px] w-[269px]">
-                    <h2 className="text-sm text-gray-400">Shop.co © 2000-2023, All Rights Reserved</h2>
+                    <h2 className="sm:text-sm text-xs text-gray-400">Shop.co © 2000-2023, All Rights Reserved</h2>
                 </div>
                 
                 {/*Payments*/}
