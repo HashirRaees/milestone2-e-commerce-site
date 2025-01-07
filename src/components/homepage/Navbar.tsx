@@ -5,6 +5,7 @@ import {
   RiSearchLine,
   RiMenuLine,
 } from "@remixicon/react";
+import BurgerMenu from "../Burger";
 export default function Nav() {
   return (
     <>
@@ -22,7 +23,7 @@ export default function Nav() {
       <nav className="flex justify-center items-center h-24 w-[390px] sm:w-[1349px]">
         <div className="h-[40px] sm:w-[1180px] w-[340px] flex justify-between sm:justify-normal items-center sm:gap-8">
           <div className="flex items-center gap-5">
-            <RiMenuLine size={24} className="sm:hidden" />
+            <BurgerMenu/>
             <h1 className="head sm:text-3xl font-IntegralCF text-2xl font-extrabold uppercase cursor-default">
               Shop.Co
             </h1>

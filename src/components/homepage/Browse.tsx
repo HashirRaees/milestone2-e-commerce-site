@@ -15,14 +15,14 @@ export default function Browse() {
             {/*Casual*/}
             <div className="flex flex-col sm:flex-row gap-5">
               <div className="casual w-[330px] sm:w-[407px] h-[190px] sm:h-[289px] rounded-2xl">
-                <h1 className="relative text-xl sm:text-3xl left-[40px] top-[28px]">
+                <h1 className="relative text-xl font-semibold sm:text-3xl left-[40px] top-[28px]">
                   Casual
                 </h1>
               </div>
 
               {/*Formal*/}
               <div className="formal w-[330px] sm:w-[644px] h-[190px] sm:h-[289px] rounded-2xl">
-                <h1 className="relative text-xl sm:text-3xl left-[40px] top-[28px]">
+                <h1 className="relative text-xl font-semibold sm:text-3xl left-[40px] top-[28px]">
                   Formal
                 </h1>
               </div>
@@ -31,14 +31,14 @@ export default function Browse() {
             {/*Party*/}
             <div className="flex flex-col sm:flex-row gap-5">
               <div className="party w-[330px] sm:w-[644px] h-[190px] sm:h-[289px] rounded-2xl">
-                <h1 className="relative text-xl sm:text-3xl left-[40px] top-[28px]">
+                <h1 className="relative text-xl font-semibold sm:text-3xl left-[40px] top-[28px]">
                   Party
                 </h1>
               </div>
 
               {/*Gym*/}
               <div className="gym w-[330px] sm:w-[407px] h-[190px] sm:h-[289px] rounded-2xl">
-                <h1 className="relative text-xl sm:text-3xl left-[40px] top-[28px]">
+                <h1 className="relative text-xl font-semibold sm:text-3xl left-[40px] top-[28px]">
                   Gym
                 </h1>
               </div>
