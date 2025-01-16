@@ -51,8 +51,8 @@ export default function Page() {
           src={"/images/image.png"}
           alt="hero"
           height={600}
-          width={620}
-          className="absolute top-[584px] left-[7px] h-[400px] w-[400px] sm:h-[600px] sm:w-[600px] sm:top-[197px] sm:left-[720px]"
+          width={600}
+          className="absolute top-[633px] left-[23px] h-[350px] w-[350px] sm:h-[600px] sm:w-[600px] sm:top-[197px] sm:left-[720px]"
         />
 
         {/*Star2*/}
@@ -61,7 +61,7 @@ export default function Page() {
           alt=""
           height={95}
           width={65}
-          className="absolute top-[650px] left-[300px] sm:h-[95] sm:w-[95] sm:top-[260px] sm:left-[1195px]"
+          className="absolute top-[620px] left-[300px] sm:h-[95] sm:w-[95] sm:top-[260px] sm:left-[1195px]"
         />
 
         {/*Brand logos*/}

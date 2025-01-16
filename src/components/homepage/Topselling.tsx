@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Top() {
   return (
     <>
-      <div className="sm:mt-10 h-[1600px] sm:h-[800px] w-[390px] sm:w-[1349px] flex flex-col items-center">
+      <div className="sm:mt-10 h-[1600px] sm:h-[800px] sm:w-[1349px] flex flex-col items-center">
         <div className="flex items-center justify-center mt-12 h-20 sm:w-[50%]">
           <h1 className="sm:text-6xl font-IntegralCF text-4xl font-extrabold">Top Selling</h1>
         </div>

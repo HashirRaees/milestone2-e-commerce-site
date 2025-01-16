@@ -14,11 +14,11 @@ export default function New() {
             <h2 className="sm:text-xl font-bold">T shirt with Tape Details</h2>
 
             {/*Rating*/}
-            <div className="sm:h-[19px] sm:w-[160px] flex gap-2">
+            <div className="sm:h-[19px] sm:w-[160px] flex gap-1">
               <Image
                 src={"/images/Star 3.png"}
                 alt=""
-                height={10}
+                height={5}
                 width={13}
                 className="sm:h-[18] sm:w-[18]"
               ></Image>
@@ -26,7 +26,7 @@ export default function New() {
                 src={"/images/Star 3.png"}
                 alt=""
                 height={10}
-                width={13}
+                width={1}
                 className="sm:h-[18] sm:w-[18]"
               ></Image>
               <Image

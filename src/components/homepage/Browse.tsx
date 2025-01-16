@@ -2,7 +2,7 @@ export default function Browse() {
   return (
     <>
       {/*Main Section*/}
-      <div className="flex sm:mt-10 w-[390px] justify-center sm:w-[1349px]">
+      <div className="flex sm:mt-10 justify-center sm:w-[1349px]">
         {/*Main div*/}
         <div className="sm:w-[1239px] w-[358px] p-4 gap-5 flex sm:p-10 sm:gap-20 items-center flex-col h-[940px] sm:h-[860px] rounded-3xl bg-gray-100">
           {/*Heading*/}

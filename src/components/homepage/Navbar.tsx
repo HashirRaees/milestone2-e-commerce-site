@@ -6,6 +6,7 @@ import {
   RiMenuLine,
 } from "@remixicon/react";
 import BurgerMenu from "../Burger";
+import Link from "next/link";
 export default function Nav() {
   return (
     <>
@@ -24,11 +25,14 @@ export default function Nav() {
         <div className="h-[40px] sm:w-[1180px] w-[340px] flex justify-between sm:justify-normal items-center sm:gap-8">
           <div className="flex items-center gap-5">
             <BurgerMenu/>
-            <h1 className="head sm:text-3xl font-IntegralCF text-2xl font-extrabold uppercase cursor-default">
+            <Link href={"/"}>
+            <h1 className="head sm:text-3xl font-IntegralCF text-2xl font-extrabold uppercase">
               Shop.Co
             </h1>
+            </Link>
           </div>
           <ul className="sm:flex hidden sm:items-center sm:gap-4">
+            
             <li className="hover:underline cursor-pointer sm:flex sm:items-center">
               Shop
               <RiArrowDownSLine size={15} />
@@ -45,7 +49,9 @@ export default function Nav() {
           ></input>
           <div className="h-[24px] w-[96] sm:w-[62px] flex justify-between gap-3">
             <RiSearchLine size={24} className="sm:hidden" />
+            <Link href={"/cart"}>
             <RiShoppingCartLine size={24} className="cursor-pointer" />
+            </Link>
             <RiAccountCircleLine size={24} className="cursor-pointer" />
           </div>
         </div>
